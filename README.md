@@ -1,13 +1,13 @@
 # ie-unsupported
-A simple landing page to tell IE users that they need to use a different browser.
+A simple landing page to tell IE users that they need to use a different browser
 
 Using W3.CSS
 
 Page size 15.6KB
 
-I am using the following to identify IE browsers:
+I have this .html hosted on a subdomain of my site, and use the following head injection to identify IE browsers and send them to the subdomain:
 
-'''
+```
  <!--[if IE] -->
 <script>
     if (window.document.documentMode) {
@@ -15,4 +15,4 @@ I am using the following to identify IE browsers:
 }
 </script>
 <!--[end IE]-->
-'''
+```
