@@ -1,5 +1,5 @@
 # ie-unsupported
-A simple landing page to tell IE users that they need to use a different browser
+A simple landing page to tell IE users that they need to use a different browser.
 
 - Using W3.CSS
 
@@ -9,7 +9,7 @@ A simple landing page to tell IE users that they need to use a different browser
 
 - Requests 4
 
-I have this .html hosted on a subdomain of my site, and use the following head injection to identify IE browsers and send them to the subdomain:
+I have the .html hosted on a subdomain of my site. I use the following head injection to identify IE browsers going to my main site, and instead send them to the subdomain where they see this beautiful project.
 
 ```
  <!--[if IE] -->
